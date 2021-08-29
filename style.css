@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+span{
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    pointer-events: none;
+    border-radius: 50%;
+}
